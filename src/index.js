@@ -1,6 +1,6 @@
 const app = require('./app');
 
-const port = 80;
+const port = 443;
 app.listen(port, () => {
   /* eslint-disable no-console */
   console.log(`Listening: http://localhost:${port}`);
